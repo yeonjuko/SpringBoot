@@ -14,7 +14,7 @@ public class SpringConfig {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
+//    @Autowired // 생성자가 하나인 경우 생략 가능
     public SpringConfig(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
